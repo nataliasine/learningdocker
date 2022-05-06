@@ -1,0 +1,2 @@
+docker container run nginx
+docker container ls -a
