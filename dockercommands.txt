@@ -1,2 +1,20 @@
-docker container run nginx
 docker container ls -a
+docker container run -d nginx  - para o container continuar em execução
+docker container - ti terminal iterativo
+docker container run -d (O processo permanece em execução)
+docker container exec -ti id e o comando que quer executar no container. Ex: bash para executar o bash
+docker container inspect para informaçoes sobre o container
+docker container start
+docker container stop
+docker container restart
+docker container 
+
+entrypoint = processo que executa em primeiro plano no container
+
+ctrl + p + q para sair do container e deixar em execução
+docker container atach id (para entrar em containers que não rodam o processo do bash em primeiro plano)
+
+
+
+
+
